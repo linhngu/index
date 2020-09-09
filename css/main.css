@@ -18,15 +18,15 @@
 }
 .content{
 	height: 5400px;
-	width: 1920px;
+	width: 100%;
 /*	background:#23BD48;*/
 	color: #201F1F;
 	font-family: futura_light;
 }
 .menu{
 	height: 100px;
-	width: 1920px;
-	font-size: 14pt;
+	width: 100%;
+	font-size: 15pt;
 	z-index: inherit;
 	color: white;
 /*	position: absolute;*/
@@ -48,7 +48,7 @@ ul li a{
 	color: white;
 	text-decoration: none;
 	font-family: futura_book;
-	font-size: 14pt;
+	font-size: 15pt;
 }
  ul li:hover{
 }
@@ -57,7 +57,7 @@ ul li a:hover{
 	color:#E9D8CE;
 }
 .tatca{
-	width: 1920px;
+	width: 100%;
 	height: 1099px;
 	margin-top: -200px;
 }
@@ -79,7 +79,7 @@ ul li a:hover{
 }
 .background{
 	height: 900px;
-	width: 1920px;
+	width: 100%;
 /*	background: #6A1214;*/
 	  background-attachment: fixed;
   background-position: center;
@@ -98,7 +98,7 @@ ul li a:hover{
 	height: 530px;
 	width: 680px;
 	background: white;
-	margin-left: 850px;
+	margin-left: 1050px;
 	float: left;
 	margin-top: -190px;
 	position: absolute;
@@ -158,7 +158,7 @@ ul li a:hover{
 .text{
 	height: 350px;
 	width: 550px;
-	font-size: 14pt;
+	font-size: 15pt;
 	margin-left: 60px;
 	font-family: italiana;
 }
@@ -173,7 +173,7 @@ ul li a:hover{
 }
 */
 .header{
-	width: 1920px;
+	width: 100%;
 	height: 3400px;
 /*	background: #4D5DD5;*/
 }
@@ -181,10 +181,11 @@ ul li a:hover{
 
 
 .skill{
-	width: 1920px;
+	width: 100%;
 	height: 560px;
 /*	background: #C4B681;*/
 	text-align: center;
+	
 }
 .headline{
 	width: 1220px;
@@ -196,6 +197,9 @@ ul li a:hover{
 	width: 1780px;
 	height: 360px;
 	margin-left: 130px;
+		  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box{
 	width: 430px;
@@ -212,7 +216,7 @@ ul li a:hover{
 	padding-top: 20px;
 }
 .about_me{
-	width: 1920px;
+	width: 100%;
 	height: 950px;
 	margin-top: 100px;
 /*	background: #994B4D;*/
@@ -245,7 +249,7 @@ ul li a:hover{
 }
 
 .project{
-	width: 1920px;
+	width: 100%;
 	height: 1000px;
 	background: #E9D8CE;
 	
@@ -255,7 +259,7 @@ ul li a:hover{
 .nenda {
 	height: 200px;
 
-	margin-top: 00px;
+	
   /* The image used */
   background:#E9D8CE;
 
@@ -275,7 +279,7 @@ ul li a:hover{
 }
 .ne{
 	background-color: #E9D8CE;
-	margin-left: 30px;
+	margin-left: 100px;
 }
 .ne img{
 	opacity: 1;
@@ -294,7 +298,7 @@ ul li a:hover{
 */
 .parallax {
 	
-	width: 1920px;
+	width: 100%;
 	height: 730px;
   /* The image used */
   background-image: url("../images/background.png");
@@ -316,7 +320,7 @@ ul li a:hover{
 	margin-left: 240px;
 }
 .footer{
-	width: 1920px;
+	width: 100%;
 	height: 810px;
 /*	background: #3A3636;*/
 			  display: flex;
@@ -327,7 +331,7 @@ ul li a:hover{
 	width: 725px;
 	height: 550px;
 /*	background: #D77A7C;*/
-	margin-left: 200px;
+	margin-left: 300px;
 	text-align: center;
 	
 }
@@ -335,7 +339,7 @@ ul li a:hover{
 	width: 725px;
 	height: 550px;
 	background: #E9D8CE;
-	margin-left:160px;
+	margin-left:300px;
 	display: flex;
   flex-direction: column;
 /*  justify-content: center;*/
@@ -348,7 +352,7 @@ ul li a:hover{
 /*	background: #29965B;*/
 	margin-left: -160px;
 	margin-top: 60px;
-	font-size: 14pt;
+	font-size: 15pt;
 	text-align: center;
 }
 .local{
@@ -410,7 +414,37 @@ ul li a:hover{
 }
 
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #E9D8CE;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
+input[type=submit] {
+  background-color: #E9D8CE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	margin-left: 250px;
+	font-size: 14pt;
+}
+
+input[type=submit]:hover {
+  background-color: #E9D8CE;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #E9D8CE;
+  padding: 20px;
+}
 
 
 
