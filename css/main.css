@@ -1,0 +1,418 @@
+/* CSS Document */
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*font*/
+@font-face{
+	src: url("../font/Italiana-Regular.ttf");
+	font-family: italiana;
+}
+@font-face{
+	src: url("../font/utm-neo-sans-intel (1).ttf");
+	font-family: futura_light;
+}
+@font-face{
+	src: url("../font/utm-neo-sans-intel (1).ttf");
+	font-family: futura_book;
+}
+.content{
+	height: 5400px;
+	width: 1920px;
+/*	background:#23BD48;*/
+	color: #201F1F;
+	font-family: futura_light;
+}
+.menu{
+	height: 100px;
+	width: 1920px;
+	font-size: 14pt;
+	z-index: inherit;
+	color: white;
+/*	position: absolute;*/
+	font-family: futura_book;
+/*	background:#D4DA54;*/
+}
+ul{
+	list-style: none;
+	position: absolute;
+	margin-left: 50px;
+}
+ul li{
+	float: left;
+	padding: 100px;
+	margin-top: -100px;
+	margin-left: -160px;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: futura_book;
+	font-size: 14pt;
+}
+ ul li:hover{
+}
+ul li a:hover{
+	font-family: futura_book;
+	color:#E9D8CE;
+}
+.tatca{
+	width: 1920px;
+	height: 1099px;
+	margin-top: -200px;
+}
+.linh {
+	height: 1300px;
+
+	margin-top: 0px;
+  /* The image used */
+  background-image: url("../images/background_menu_02.png");
+
+  /* Full height */
+/*  height: 100%; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background{
+	height: 900px;
+	width: 1920px;
+/*	background: #6A1214;*/
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hinh{
+	height: 999px;
+	width: 1920px;
+/*	background:#25D123;	*/
+/*	float: left;*/
+	margin-left: 200px;
+}
+.welcome{
+	height: 530px;
+	width: 680px;
+	background: white;
+	margin-left: 850px;
+	float: left;
+	margin-top: -190px;
+	position: absolute;
+	
+}
+
+
+
+
+
+.button {
+  border-radius: 4px;
+  background-color:#E9D8CE;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 60px;
+	font-family: futura_light;
+	height: 40px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+.text{
+	height: 350px;
+	width: 550px;
+	font-size: 14pt;
+	margin-left: 60px;
+	font-family: italiana;
+}
+/*
+.more{
+	width: 150px;
+	height: 45px;
+	background: #E9D8CE;
+	text-align: center;
+	padding: 10px;
+	margin-left: 60px;
+}
+*/
+.header{
+	width: 1920px;
+	height: 3400px;
+/*	background: #4D5DD5;*/
+}
+
+
+
+.skill{
+	width: 1920px;
+	height: 560px;
+/*	background: #C4B681;*/
+	text-align: center;
+}
+.headline{
+	width: 1220px;
+	height: 250px;
+	background: white;
+	margin-left: 350px;
+}
+.skill_box{
+	width: 1780px;
+	height: 360px;
+	margin-left: 130px;
+}
+.box{
+	width: 430px;
+	height: 300px;
+	background: #E9D8CE;
+	float: left;
+	margin-left: 85px;
+}
+.web{
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	margin-left: 60px;
+	padding-top: 20px;
+}
+.about_me{
+	width: 1920px;
+	height: 950px;
+	margin-top: 100px;
+/*	background: #994B4D;*/
+/*	float: left;*/
+	
+}
+.about{
+	width: 700px;
+	height: 500px;
+/*	background: #D9A2A3;*/
+	float: left;
+	margin-left: 300px;
+	margin-top: 200px;
+}
+.nenco {
+	height: 1500px;
+
+	margin-top: 0px;
+  /* The image used */
+  background-image: url("../images/Home3.jpg");
+
+  /* Full height */
+/*  height: 100%; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project{
+	width: 1920px;
+	height: 1000px;
+	background: #E9D8CE;
+	
+/*	margin-left: 30px;*/
+	
+}
+.nenda {
+	height: 200px;
+
+	margin-top: 00px;
+  /* The image used */
+  background:#E9D8CE;
+
+  /* Full height */
+/*  height: 100%; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_project{
+	  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ne{
+	background-color: #E9D8CE;
+	margin-left: 30px;
+}
+.ne img{
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+.ne:hover img{
+	opacity: 0.5;
+}
+/*
+.sayings{
+	width: 1920px;
+	height: 730px;
+	text-align: center;
+	
+}
+*/
+.parallax {
+	
+	width: 1920px;
+	height: 730px;
+  /* The image used */
+  background-image: url("../images/background.png");
+
+  /* Full height */
+/*  height: 100%; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text_sayings{
+	width: 1440px;
+	height: 360px;
+	margin-top: -500px;
+	color: white;
+	margin-left: 240px;
+}
+.footer{
+	width: 1920px;
+	height: 810px;
+/*	background: #3A3636;*/
+			  display: flex;
+  align-items: center;
+	margin-top: -140px;
+}
+.lienhe1{
+	width: 725px;
+	height: 550px;
+/*	background: #D77A7C;*/
+	margin-left: 200px;
+	text-align: center;
+	
+}
+.lienhe{
+	width: 725px;
+	height: 550px;
+	background: #E9D8CE;
+	margin-left:160px;
+	display: flex;
+  flex-direction: column;
+/*  justify-content: center;*/
+  align-items: center;
+	margin-top: 0px;
+}
+.contact{
+	width: 1225px;
+	height: 200px;
+/*	background: #29965B;*/
+	margin-left: -160px;
+	margin-top: 60px;
+	font-size: 14pt;
+	text-align: center;
+}
+.local{
+	width: 200px;
+	height: 100px;
+/*	background: #D1E042;*/
+	float: left;
+	margin-left: 84px;
+}
+.send{
+	width: 455px;
+	height: 50px;
+	background: white;
+	margin-top: 40px;
+	color: #AEA9A9;
+}
+
+
+.button1 {
+  border-radius: 4px;
+  background-color:#E9D8CE;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 30px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 60px;
+	font-family: futura_light;
+/*	height: 20px;*/
+	margin-top: 20px;
+}
+
+.button1 span {
+  cursor: pointer;
+/*  display: inline-block;*/
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-top: 1px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
